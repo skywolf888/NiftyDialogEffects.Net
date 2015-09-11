@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiftyDialogEffects.Net", "NiftyDialogEffects\NiftyDialogEffects.Net.csproj", "{2BBA2C4F-CD4A-446B-8572-BB24C7E0F90C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NiftyDialogEffects.Net.Sample", "NiftyDialogEffects.Net.Sample\NiftyDialogEffects.Net.Sample.csproj", "{B749A68A-7259-4487-BA5A-3ADA77C7E3DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BBA2C4F-CD4A-446B-8572-BB24C7E0F90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BBA2C4F-CD4A-446B-8572-BB24C7E0F90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BBA2C4F-CD4A-446B-8572-BB24C7E0F90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BBA2C4F-CD4A-446B-8572-BB24C7E0F90C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B749A68A-7259-4487-BA5A-3ADA77C7E3DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B749A68A-7259-4487-BA5A-3ADA77C7E3DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B749A68A-7259-4487-BA5A-3ADA77C7E3DE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B749A68A-7259-4487-BA5A-3ADA77C7E3DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B749A68A-7259-4487-BA5A-3ADA77C7E3DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B749A68A-7259-4487-BA5A-3ADA77C7E3DE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

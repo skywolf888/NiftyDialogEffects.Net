@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2BBA2C4F-CD4A-446B-8572-BB24C7E0F90C}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NiftyDialogEffects.Net</RootNamespace>
+    <AssemblyName>NiftyDialogEffects.Net</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <DevInstrumentationEnabled>True</DevInstrumentationEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NiftyDialogBuilder.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ColorUtils.cs" />
+    <Compile Include="Effectstype.cs" />
+    <AndroidResource Include="Resources\drawable\btn_press.xml" />
+    <AndroidResource Include="Resources\drawable\btn_selector.xml" />
+    <AndroidResource Include="Resources\drawable\btn_unpress.xml" />
+    <AndroidResource Include="Resources\drawable\dialog_bg.xml" />
+    <AndroidResource Include="Resources\layout\dialog_layout.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\values\dimens.xml" />
+    <AndroidResource Include="Resources\values\styles.xml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\values-v11\styles.xml" />
+    <AndroidResource Include="Resources\values-v14\styles.xml" />
+    <AndroidResource Include="Resources\values-w360dp\dimens.xml" />
+    <AndroidResource Include="Resources\values-w480dp\dimens.xml" />
+    <AndroidResource Include="Resources\values-w500dp\dimens.xml" />
+    <AndroidResource Include="Resources\values-w600dp\dimens.xml" />
+    <AndroidResource Include="Resources\values-w720dp\dimens.xml" />
+    <Compile Include="effects\BaseEffects.cs" />
+    <Compile Include="effects\FadeIn.cs" />
+    <Compile Include="effects\Fall.cs" />
+    <Compile Include="effects\FlipH.cs" />
+    <Compile Include="effects\FlipV.cs" />
+    <Compile Include="effects\NewsPaper.cs" />
+    <Compile Include="effects\RotateBottom.cs" />
+    <Compile Include="effects\RotateLeft.cs" />
+    <Compile Include="effects\Shake.cs" />
+    <Compile Include="effects\SideFall.cs" />
+    <Compile Include="effects\SlideBottom.cs" />
+    <Compile Include="effects\SlideLeft.cs" />
+    <Compile Include="effects\SlideRight.cs" />
+    <Compile Include="effects\SlideTop.cs" />
+    <Compile Include="effects\Slit.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
